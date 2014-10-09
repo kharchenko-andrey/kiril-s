@@ -1,0 +1,425 @@
+﻿html, body, div, span, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, 
+pre, abbr, address, cite, code, del, dfn, 
+em, img, ins, kbd, q, samp, small, strong, 
+sub, sup, var, b, i, dl, dt, dd, ol, ul, 
+li, fieldset, form, label, legend, table, 
+caption, tbody, tfoot, thead, tr, th, td
+*{
+    outline:none;
+    padding:0;
+    margin:0;
+    border:0;
+    vertical-align:baseline;
+    font-size:12px;
+    font-family: arial;
+ color:#000;
+ zoom:1;
+}
+
+@font-face
+{
+	font-family:"PF Din Text Cond Pro Regular";
+	src: url(fonts/PFDinTextCondPro-Regular.ttf);
+}
+
+@font-face
+{
+	font-family:"PF Din Text Cond Pro Bold";
+	src: url(fonts/PFDinTextCondPro-Bold_0.ttf);
+}
+
+@font-face
+{
+	font-family:"PF Din Text Cond Pro Medium";
+	src: url(fonts/PFDinTextCondPro-Medium.ttf);
+}
+
+@font-face
+{
+	font-family:"PF Din Text Cond Pro Light";
+	src: url(fonts/PFDinTextCondPro-Light.ttf);
+}
+
+a:visited
+{
+	color:#ff7800;
+}
+
+.header-up
+{
+	width:100%;
+	height:37px;
+	background:#f0f0f0
+}
+
+.header-mid
+{
+	width:980px;
+	height:125px;
+	/* background:#d2d2d2; */
+	margin:0 auto;
+	position:relative;
+}
+
+.logo
+{
+	position:absolute;
+	display:block;
+	width:175px;
+	height:86px;
+	left:0px;
+	top:20px;
+	background:url('images/logo.png') 0px 0px no-repeat;
+}
+
+.line1
+{
+	position:absolute;
+	display:block;
+	width:1px;
+	height:100px;
+	left:250px;
+	top:0px;
+	background:#f0f0f0;
+}
+
+.phone-img
+{
+	position:absolute;
+	display:block;
+	width:25px;
+	height:22px;
+	left:251px;
+	top:30px;
+	background:url('images/phone-img.png') 0px 0px no-repeat;
+}
+
+.index-number
+{
+	position:absolute;
+	font-weight:bold;
+	left:285px;
+	top:27px;
+	font-size:21px;
+	font-family:"PF Din Text Cond Pro Regular";
+	
+}
+
+.number1
+{
+	position:absolute;
+	font-weight:bold;
+	left:330px;
+	top:25px;
+	font-size:21px;
+	color:#ff7800;
+	font-family:"PF Din Text Cond Pro Medium";
+}
+
+.min-line1
+{
+	position:absolute;
+	display:block;
+	width:1px;
+	height:12px;
+	left:430px;
+	top:32px;
+	background:#f0f0f0;
+}
+
+.min-line2
+{
+	position:absolute;
+	display:block;
+	width:1px;
+	height:12px;
+	left:432px;
+	top:321px;
+	background:#f0f0f0;
+}
+
+.min-line3
+{
+	position:absolute;
+	display:block;
+	width:1px;
+	height:12px;
+	left:434px;
+	top:32px;
+	background:#f0f0f0;
+}
+
+.number2
+{
+	position:absolute;
+	font-weight:bold;
+	left:444px;
+	top:25px;
+	font-size:21px;
+	color:#ff7800;
+	font-family:"PF Din Text Cond Pro Medium";
+}
+
+.min-line4
+{
+	position:absolute;
+	display:block;
+	width:1px;
+	height:12px;
+	left:543px;
+	top:32px;
+	background:#f0f0f0;
+}
+
+.min-line5
+{
+	position:absolute;
+	display:block;
+	width:1px;
+	height:12px;
+	left:545px;
+	top:32px;
+	background:#f0f0f0;
+}
+
+.min-line6
+{
+	position:absolute;
+	display:block;
+	width:1px;
+	height:12px;
+	left:547px;
+	top:32px;
+	background:#f0f0f0;
+}
+
+.number3
+{
+	position:absolute;
+	font-weight:bold;
+	left:555px;
+	top:25px;
+	font-size:21px;
+	color:#ff7800;
+	font-family:"PF Din Text Cond Pro Medium";
+}
+
+.search
+{
+	position:absolute;
+	width:275px;
+	height:50px;
+	left:285px;
+	top:63px;
+	border:1px;
+}
+
+.map-img
+{
+	position:absolute;
+	display:block;
+	width:18px;
+	height:32px;
+	left:520px;
+	top:60px;
+	background:url('images/map.png') 0px 0px no-repeat;
+}
+
+.map-link
+{
+	position:absolute;
+	left:550px;
+	top:65px;
+	text-decoration:underline;
+}
+
+.line2
+{
+	position:absolute;
+	display:block;
+	width:1px;
+	height:100px;
+	left:665px;
+	top:0px;
+	background:#f0f0f0;
+}
+
+.basket-img
+{
+	position:absolute;
+	display:block;
+	width:25px;
+	height:22px;
+	left:666px;
+	top:30px;
+	background:url('images/basket-img.png') 0px 0px no-repeat;
+}
+
+.basket
+{
+	position:absolute;
+	top:28px;
+	left:700px;
+	text-transform:uppercase;
+	font-size:20px;
+	font-family:"PF Din Text Cond Pro Medium";
+}
+
+.basket-info
+{
+	position:absolute;
+	left:700px;
+	top:60px;
+}
+
+.issue
+{
+	position:absolute;
+	display:block;
+	width:85px;
+	height:25px;
+	left:895px;
+	top:60px;
+	background:url('images/issue.png') 0px 0px no-repeat;
+	color:#FFFFFF;
+	text-transform:uppercase;
+	font-size:12px;
+	font-family:tahoma;
+	text-align:center;
+}
+
+.home-img
+{
+	position:absolute;
+	display:block;
+	width:11px;
+	height:11px;
+	background:url('images/home.png') 0px 0px no-repeat;
+	top:12px;
+	margin-left:21%
+}
+
+.tree
+{
+	position:absolute;
+	display:block;
+	width:17px;
+	height:11px;
+	background:url('images/tree.png') 0px 0px no-repeat;
+	top:12px;
+	margin-left:24%
+}
+
+.mail
+{
+	position:absolute;
+	display:block;
+	width:15px;
+	height:11px;
+	background:url('images/mail.png') 0px 0px no-repeat;
+	top:12px;
+	margin-left:27%;	
+}
+
+.partners
+{
+	position:absolute;
+	top:8px;
+	margin-left:36%;
+	color:#525252;
+	
+}
+
+.order
+{
+	position:absolute;
+	top:8px;
+	margin-left:53%;
+	color:#525252;
+}
+
+.pay
+{
+	position:absolute;
+	top:8px;
+	margin-left:62%;
+	color:#525252;
+}
+
+.guarantee
+{
+	position:absolute;
+	top:8px;
+	margin-left:72%;
+	color:#525252;
+}
+
+.menu-top
+{
+	width:978px;
+	height:54px;
+	margin:0 auto;
+	background:url('images/menu-back.png') 0px 0px no-repeat;
+	position:relative;
+}
+
+.company
+{
+	font-family:"PF Din Text Cond Pro Medium";
+	position:absolute;
+	left:63px;
+	top:14px;
+	font-size:20px;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.catalog
+{
+	font-family:"PF Din Text Cond Pro Medium";
+	position:absolute;
+	left:284px;
+	top:14px;
+	font-size:20px;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.services
+{
+	font-family:"PF Din Text Cond Pro Medium";
+	position:absolute;
+	left:463px;
+	top:14px;
+	font-size:20px;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.vacancy
+{
+	font-family:"PF Din Text Cond Pro Medium";
+	position:absolute;
+	left:648px;
+	top:14px;
+	font-size:20px;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+
+.contacts
+{
+	font-family:"PF Din Text Cond Pro Medium";
+	position:absolute;
+	left:832px;
+	top:14px;
+	font-size:20px;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-transform:uppercase;
+}
